@@ -23,13 +23,13 @@ class MainActivity : AppCompatActivity() {
         TabLayoutMediator(tabLayout,viewPager2){tab,position->
             when(position){
                 0->{
-                    tab.text="First"
+                    tab.text="Weather"
                 }
                 1->{
-                    tab.text="Second"
+                    tab.text="Covid"
                 }
                 2->{
-                    tab.text="Third"
+                    tab.text="Weather"
                 }
             }
         }.attach()
