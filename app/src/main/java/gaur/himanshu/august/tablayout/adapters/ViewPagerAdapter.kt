@@ -4,7 +4,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import gaur.himanshu.august.tablayout.fragments.FirstFragment
+import gaur.himanshu.august.tablayout.fragments.WeatherFragment
 import gaur.himanshu.august.tablayout.fragments.SecFragment
 import gaur.himanshu.august.tablayout.fragments.ThirdFragment
 
@@ -16,7 +16,7 @@ class ViewPagerAdapter(fragmentManager: FragmentManager,lifecycle: Lifecycle): F
     override fun createFragment(position: Int): Fragment {
      return   when(position){
             0->{
-                FirstFragment()
+                WeatherFragment()
             }
             1->{
                 SecFragment()

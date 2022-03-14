@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="cities">
+            <item>Select city</item>
+            <item>Tokyo,JP</item>
+            <item>California, US</item>
+            <item>London, UK</item>
+        </string-array>
+    </resources>
